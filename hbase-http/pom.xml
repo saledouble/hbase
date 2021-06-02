@@ -50,6 +50,7 @@
         </includes>
       </testResource>
     </testResources>
+    <pluginManagement> 
     <plugins>
       <!-- licensing info from our bundled works -->
       <plugin>
@@ -126,6 +127,7 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement> 
     <!-- General Resources -->
   </build>
   <dependencies>

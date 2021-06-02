@@ -70,6 +70,8 @@
         </includes>
       </testResource>
     </testResources>
+    
+    <pluginManagement>
     <plugins>
       <plugin>
         <groupId>com.github.spotbugs</groupId>
@@ -230,6 +232,7 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
   <dependencies>
     <dependency>

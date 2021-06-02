@@ -113,6 +113,11 @@
             </execution>
           </executions>
         </plugin>
+        
+        <plugin>
+        	<groupId>net.revelc.code</groupId>
+        	<artifactId>warbucks-maven-plugin</artifactId>
+      	</plugin>
       </plugins>
     </pluginManagement>
 
@@ -131,10 +136,6 @@
                 -Djava.security.egd=file:/dev/./urandom -XX:+CMSClassUnloadingEnabled
                 -verbose:gc -XX:+PrintCommandLineFlags  -XX:+PrintFlagsFinal</argLine>
           </configuration>
-      </plugin>
-      <plugin>
-        <groupId>net.revelc.code</groupId>
-        <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>

@@ -32,6 +32,7 @@
   <description>HBase Metrics API descriptions</description>
 
   <build>
+  <pluginManagement>
     <plugins>
       <!-- Make a jar and put the sources in the jar -->
       <plugin>
@@ -73,6 +74,7 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 
   <dependencies>

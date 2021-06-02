@@ -56,6 +56,7 @@
         </includes>
       </testResource>
     </testResources>
+    <pluginManagement> 
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -136,6 +137,7 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement> 
   </build>
 
   <dependencies>

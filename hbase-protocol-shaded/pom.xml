@@ -37,6 +37,7 @@
     <internal.protobuf.version>3.11.4</internal.protobuf.version>
   </properties>
   <build>
+  <pluginManagement>
     <plugins>
       <!-- Make a jar and put the sources in the jar -->
       <plugin>
@@ -186,6 +187,7 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
   <dependencies>
     <!--BE CAREFUL! Any dependency added here needs to be

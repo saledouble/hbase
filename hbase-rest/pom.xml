@@ -49,6 +49,8 @@
         </includes>
       </testResource>
     </testResources>
+    
+    <pluginManagement>
     <plugins>
       <plugin>
         <!--Make it so assembly:single does nothing in here-->
@@ -128,6 +130,8 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement>
+    
   </build>
   <dependencies>
     <!--This one is upfront to get in front of

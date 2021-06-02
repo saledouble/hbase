@@ -33,6 +33,7 @@
 <!--REMOVE-->
 
   <build>
+  <pluginManagement>
     <plugins>
       <!-- Make a jar and put the sources in the jar -->
       <plugin>
@@ -58,6 +59,7 @@
         </configuration>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 
   <dependencies>

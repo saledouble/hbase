@@ -32,6 +32,7 @@
   <description>HBase Replication Support</description>
 
   <build>
+  <pluginManagement>
     <plugins>
       <plugin>
         <!--Make it so assembly:single does nothing in here-->
@@ -57,6 +58,7 @@
         <artifactId>warbucks-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 
   <dependencies>
